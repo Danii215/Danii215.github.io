@@ -1,10 +1,26 @@
 body {
-    margin: 0;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    background-color: #3E2C41;
 }
 
 .navbar {
-    background-color: #DA0;
-    width: 100%;
-    position: absolute;
-    height: 30px;
+    background-color: #261C2C;
+    height: 50px;
+    padding: 20px 0px 0px 50px;
+}
+
+
+.navtitle {
+    color: #FFF;
+    text-decoration: none;
+    padding: 2px;
+    font-size: 1.5rem;
+    outline: none;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
